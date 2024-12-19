@@ -20,9 +20,10 @@ This project implements a Retrieval-Augmented Generation (RAG) system powered by
 ## Setup Instructions  
 
 ### Step 1: Clone the Repository  
-Clone the Repository: Start by cloning the repository from GitHub using the following command:  
+Clone the Repository: Start by cloning the repository from GitHub using the following command: 
 ```bash
 git clone https://github.com/BalajiMittapalli/LLM-based-Rag.git
+cd project_name
 
 Step 2: Create a Virtual Environment
 You can use either venv or conda to create an isolated environment for this project.
