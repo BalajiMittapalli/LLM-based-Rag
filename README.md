@@ -20,12 +20,12 @@ This project implements a Retrieval-Augmented Generation (RAG) system powered by
 ## Setup Instructions  
 
 ### Step 1: Clone the Repository  
-Clone the repository and navigate into the project folder:  
+Clone the Repository: Start by cloning the repository from GitHub using the following command:  
 ```bash
 git clone https://github.com/BalajiMittapalli/LLM-based-Rag.git
 
-Step 2: Set Up a Virtual Environment
-You can use venv or conda to create an isolated environment for this project.
+Step 2: Create a Virtual Environment
+You can use either venv or conda to create an isolated environment for this project.
 Using venv
 python -m venv env
 source env/bin/activate  # On Windows, use `env\Scripts\activate`
@@ -34,25 +34,25 @@ Using conda
 conda create --name project_env python=3.8
 conda activate project_env
 
-Step 3: Install Dependencies
-Install the required packages listed in requirements.txt.
+Step 3: Install Required Packages
+Install the necessary dependencies listed in the requirements.txt file by running
 pip install -r requirements.txt
 
-Step 4: Configure Environment Variables
-Create a .env file in the root directory and add your API keys:
-# Example .env file
+Step 4: Set Up Environment Variables
+Create a .env file in the root folder and add your API keys.
+For example:
 GEMINI_API_KEY=your_gemini_api_key
 
-Step 5: Run the Flask Backend
-Navigate to the flask_app directory and start the Flask server:
+Step 5: Launch the Flask Backend
+Navigate to the flask_app directory and start the Flask server by executing:
 cd flask_app
 python app.py
 
 Step 6: Run the Streamlit Frontend
-In a new terminal, navigate to the streamlit_app directory and run the Streamlit app:
+Open a new terminal, go to the streamlit_app directory, and run the Streamlit app:
 cd streamlit_app
 streamlit run app.py
 
-Step 7: Open the Application
-Open your web browser and go to http://localhost:8501. You can now interact with the system by entering your queries.
+Step 7: Access the Application
+Open your browser and visit http://localhost:8501 to interact with the system by entering your queries.
 
